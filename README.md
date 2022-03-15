@@ -1,5 +1,7 @@
 # world_info
 
+The app was made in January, 2022
+
 ## Description
 App to display some basic info about countries specified by user.
 
@@ -18,9 +20,9 @@ Using a RESTful API from https://restcountries.com/ to get data which will be pr
 Rich commentary and consistent application structure to make the code easier to understand.
 
 ## Architecture
-App is separated into 3 layers:
+The app is separated into three layers:
 * Presentation layer, which holds all the UI's and cubits
-* Domain layer, for communicating data layer with presentation layer. Holds entities, usecases and repository contracts.
-* Data layer, for repositories, models and data sources.
+* Domain layer, for communicating data layer with the presentation layer. Holds entities, use-cases and repository contracts.
+* Data layer; for repositories, models and data sources.
 
 There is also one additional folder called 'core'. All values and methods used across the app are stored there. 
